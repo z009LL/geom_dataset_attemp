@@ -1,0 +1,15 @@
+Pkg.activate("/path/to/new/julia/environment")
+
+julia> println(Pkg.project().path)
+C:\path\to\new\julia\environment\Project.toml
+
+Pkg.status()
+
+***********************
+
+mkdir my_project
+cd my_project
+julia --project="."
+
+****************************
+
